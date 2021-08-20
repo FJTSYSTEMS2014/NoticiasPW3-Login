@@ -8,7 +8,7 @@ function General() {
         const fetchData = async () => {
             const res = await fetch(
 
-                'https://raw.githubusercontent.com/FJTSYSTEMS2014/link_api_noticias/master/top-headlines-news-argentina-world.json',
+                'https://raw.githubusercontent.com/FJTSYSTEMS2014/link_api_noticias/master/top-headlines-google-news-usa.json',
             );
             const json = await res.json();
             setData(json.articles);

@@ -36,7 +36,7 @@ function Navbar () {
           to="/arInTheWorld"
           className="btn btn-outline-success my-0 my-sm-0 p-2"
         >
-          {' '}Argentina en el Mundo
+          {' '} EEUU News
         </NavLink>
         <NavLink
           exact
